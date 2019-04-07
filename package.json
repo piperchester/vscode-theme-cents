@@ -10,9 +10,10 @@
     "url": "https://github.com/piperchester/vscode-cents-theme"
   },
   "scripts": {
-    "start": "vsce package",
     "build": "vsce package",
-    "clean": "rm -rf *.vsix"
+    "clean": "rm -rf *.vsix",
+    "postversion": "npm run clean && git push origin",
+    "start": "vsce package"
   },
   "engines": {
     "vscode": "^1.13.0"
