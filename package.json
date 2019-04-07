@@ -23,7 +23,9 @@
   ],
   "keywords": [
     "theme",
-    "cents"
+    "cents",
+    "dark",
+    "syntax"
   ],
   "contributes": {
     "themes": [
