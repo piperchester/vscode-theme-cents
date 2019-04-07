@@ -1,0 +1,39 @@
+{
+  "name": "vscode-cents-theme",
+  "displayName": "💰Cents",
+  "description": "A dark VS Code syntax theme that just makes sense.",
+  "version": "1.0.0",
+  "publisher": "piperchester",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piperchester/vscode-cents-theme"
+  },
+  "scripts": {
+    "start": "vsce package",
+    "build": "vsce package",
+    "clean": "rm -rf *.vsix"
+  },
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "cents"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cents",
+        "uiTheme": "vs-dark",
+        "path": "./cents.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.59.0"
+  }
+}
