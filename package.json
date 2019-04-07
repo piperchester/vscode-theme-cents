@@ -2,7 +2,7 @@
   "name": "vscode-cents-theme",
   "displayName": "💰Cents",
   "description": "A dark VS Code syntax theme that just makes sense.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "piperchester",
   "license": "MIT",
   "repository": {
