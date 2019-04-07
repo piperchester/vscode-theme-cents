@@ -13,7 +13,7 @@
     "build": "vsce package",
     "clean": "rm -rf *.vsix",
     "postversion": "npm run clean && git push origin",
-    "start": "vsce package"
+    "start": "npm run clean && vsce package"
   },
   "engines": {
     "vscode": "^1.13.0"
