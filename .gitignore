@@ -1,8 +1,12 @@
 # node
 node_modules
+package-lock.json
 
 # macOS
 .DS_Store
 
 # vs code
 *.vsix
+
+# Cents
+cents.json
