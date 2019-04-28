@@ -52,7 +52,7 @@ module.exports = {
     "editor.selectionHighlightBorder": "#192b37",
     "editor.findMatchBackground": "#40AD87",
     "editor.findMatchBorder": "#40AD87",
-    "editor.findMatchHighlightBackground": "#40AD87",
+    "editor.findMatchHighlightBackground": "#FFF8E8", // yellow-lightest
     "editor.findMatchHighlightBorder": "#f2971833",
     "editor.findRangeHighlightBorder": "#0f141900",
     "editor.findRangeHighlightBackground": "#131e27",
