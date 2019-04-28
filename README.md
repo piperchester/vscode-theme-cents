@@ -1,12 +1,12 @@
 ## Cents 💰
 > A VS Code theme that just makes sense!
 
-Dark theme that's a smart investment in productivitiy. Designed to clarify the editor and reflect a sensible brand.
+Dark theme that's a smart investment in productivitiy and reflects a sensible brand.
 
 Cents is **[available in the VS Code marketplace][market]**. To install,
 
 1. Type `cmd+shift+p` to open the command palette.
-1. Type "**ext**" and select "**Extensions: Install Extensions**" to open the Extensions sidebar
+1. Type "**ext**" and select "**Extensions: Install Extensions**" to open the Extensions sidebar.
 1. Type "**cents**" in the Extensions sidebar to find the theme. (_Hint: look for the 💰_)
 
 ### Contribute ♻️
@@ -39,8 +39,8 @@ From VS Code,
 If you need to toggle to the theme, go to `Preferences > Color Theme > Cents`. If you need to reinstall, search for "**cents**" in the Extensions sidebar.
 </details>
 
-### Recongition ️🏆
-`vscode-cents-theme` was loosely based on the awesome [`Any Dark`][ad] and [`One Dark Pro`][odp].
+### Recongition
+Cents was loosely based on the awesome [`Any Dark`][ad] and [`One Dark Pro`][odp] projects.
 
 [market]: https://marketplace.visualstudio.com/items?itemName=piperchester.vscode-cents-theme
 [ad]: https://github.com/teabyii/vscode-ayu
