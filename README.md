@@ -1,5 +1,5 @@
 ## Cents 💰
-> A VS Code theme that just makes sense!
+> It just makes sense!
 
 Dark theme that's a smart investment in productivitiy and reflects a sensible brand.
 
