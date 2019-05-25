@@ -1,3 +1,5 @@
+const redLight = '#FF5C5C';
+
 module.exports = {
   "type": "dark",
   "colors": {
@@ -31,8 +33,8 @@ module.exports = {
     "list.focusForeground": "#bfbab0",
     "list.hoverBackground": "#060d13",
     "list.hoverForeground": "#bfbab0",
-    // "list.highlightForeground": "#40AD87",
-    "list.highlightForeground": "#FF5C5C",  // red-light
+    "list.highlightForeground": "#40AD87",
+    // "list.highlightForeground": redLight,
     "list.invalidItemForeground": "#363f46",
     "pickerGroup.foreground": "#2b3339",
     "pickerGroup.border": "#060d13",
@@ -52,7 +54,8 @@ module.exports = {
     "editor.selectionHighlightBorder": "#192b37",
     "editor.findMatchBackground": "#40AD87",
     "editor.findMatchBorder": "#40AD87",
-    "editor.findMatchHighlightBackground": "#FFF8E8", // yellow-lightest
+    // "editor.findMatchHighlightBackground": "#FFF8E8", // yellow-lightest
+    "editor.findMatchHighlightBackground": redLight,
     "editor.findMatchHighlightBorder": "#f2971833",
     "editor.findRangeHighlightBorder": "#0f141900",
     "editor.findRangeHighlightBackground": "#131e27",
@@ -88,7 +91,8 @@ module.exports = {
     "editorSuggestWidget.background": "#13181d",
     "editorSuggestWidget.border": "#000000",
     "editorSuggestWidget.selectedBackground": "#060d13",
-    "editorSuggestWidget.highlightForeground": "#40AD87",
+    // "editorSuggestWidget.highlightForeground": "#40AD87",
+    "editorSuggestWidget.highlightForeground": redLight,
     "peekView.border": "#060d13",
     "peekViewEditor.background": "#13181d",
     "peekViewEditor.matchHighlightBackground": "#f2971833",
