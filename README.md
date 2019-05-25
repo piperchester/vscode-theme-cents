@@ -7,7 +7,7 @@ Cents is **[available in the VS Code marketplace][market]**. To install,
 
 1. Type `cmd+shift+p` to open the command palette.
 1. Type "**ext**" and select "**Extensions: Install Extensions**" to open the Extensions sidebar.
-1. Type "**cents**" in the Extensions sidebar to find the theme. (_Hint: look for the 💰_)
+1. Type "**cents**" in the Extensions sidebar to find the theme. (_Hint: look for th\e 💰_)
 
 ### Contribute ♻️
 Help improve Cents! Open an issue or pull request by tweaking `cents.json`.
@@ -37,6 +37,14 @@ From VS Code,
 1. Done!
 
 If you need to toggle to the theme, go to `Preferences > Color Theme > Cents`. If you need to reinstall, search for "**cents**" in the Extensions sidebar.
+
+### Publish
+
+Visit https://marketplace.visualstudio.com/manage/publishers/piperchester or
+
+```sh
+vsce publish
+```
 </details>
 
 ### Recongition
