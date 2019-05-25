@@ -11,4 +11,3 @@ if (fs.existsSync(centsJson)) {
 
 const theme = require('./cents.js');
 fs.writeFileSync(centsJson, JSON.stringify(theme));
-console.log('Written ', centsJson);
