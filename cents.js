@@ -1,4 +1,8 @@
-const redLight = '#FF5C5C';
+const colors = {
+  redLight : '#FF5C5C',
+  redDark : '#AB0303',
+  blueLighter : '#9DCDFA',
+}
 
 module.exports = {
   "type": "dark",
@@ -34,7 +38,6 @@ module.exports = {
     "list.hoverBackground": "#060d13",
     "list.hoverForeground": "#bfbab0",
     "list.highlightForeground": "#40AD87",
-    // "list.highlightForeground": redLight,
     "list.invalidItemForeground": "#363f46",
     "pickerGroup.foreground": "#2b3339",
     "pickerGroup.border": "#060d13",
@@ -55,7 +58,7 @@ module.exports = {
     "editor.findMatchBackground": "#40AD87",
     "editor.findMatchBorder": "#40AD87",
     // "editor.findMatchHighlightBackground": "#FFF8E8", // yellow-lightest
-    "editor.findMatchHighlightBackground": redLight,
+    "editor.findMatchHighlightBackground": colors.redDark,
     "editor.findMatchHighlightBorder": "#f2971833",
     "editor.findRangeHighlightBorder": "#0f141900",
     "editor.findRangeHighlightBackground": "#131e27",
@@ -92,7 +95,7 @@ module.exports = {
     "editorSuggestWidget.border": "#000000",
     "editorSuggestWidget.selectedBackground": "#060d13",
     // "editorSuggestWidget.highlightForeground": "#40AD87",
-    "editorSuggestWidget.highlightForeground": redLight,
+    "editorSuggestWidget.highlightForeground": colors.redDark,
     "peekView.border": "#060d13",
     "peekViewEditor.background": "#13181d",
     "peekViewEditor.matchHighlightBackground": "#f2971833",
@@ -188,7 +191,8 @@ module.exports = {
       "name": "support.constant.edge",
       "scope": "support.constant.edge",
       "settings": {
-        "foreground": "#c678dd"
+        // "foreground": colors.blueLighter
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -467,7 +471,8 @@ module.exports = {
         "keyword.operator.optional"
       ],
       "settings": {
-        "foreground": "#c678dd"
+        // "foreground": colors.blueLighter
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -572,7 +577,7 @@ module.exports = {
       "name": "python logical",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -642,7 +647,7 @@ module.exports = {
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -670,7 +675,7 @@ module.exports = {
       "name": "Packages",
       "scope": "token.package.keyword",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -742,7 +747,7 @@ module.exports = {
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -770,21 +775,21 @@ module.exports = {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
       "name": "Storage JS TS",
       "scope": "token.storage",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
       "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
       "scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -912,7 +917,7 @@ module.exports = {
       "name": "Selector",
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -963,14 +968,14 @@ module.exports = {
       "name": "Italic",
       "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
       "name": "Italic",
       "scope": "emphasis md",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1061,7 +1066,7 @@ module.exports = {
       "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1205,14 +1210,14 @@ module.exports = {
       "name": "error suppression",
       "scope": "keyword.operator.error-control.php",
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": colors.blueLighter
       }
     },
     {
       "name": "php instanceof",
       "scope": "keyword.operator.type.php",
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1282,7 +1287,7 @@ module.exports = {
       "name": "php regexp operator",
       "scope": "keyword.operator.regexp.php",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1303,7 +1308,7 @@ module.exports = {
       "name": "php heredoc/nowdoc",
       "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1444,7 +1449,7 @@ module.exports = {
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1499,7 +1504,7 @@ module.exports = {
         "punctuation.quasi.element"
       ],
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
@@ -1641,7 +1646,7 @@ module.exports = {
         "support.type.object.hlsl"
       ],
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": colors.blueLighter
       }
     },
     {
