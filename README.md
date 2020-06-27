@@ -18,7 +18,6 @@ Help improve Cents! Open an issue or pull request by tweaking `cents.json`.
 ### Build
 
 ```shell
-# after cloning
 yarn
 yarn build  # repackages .vsix file
 yarn clean  # wipes .vsix files
@@ -26,25 +25,26 @@ yarn clean  # wipes .vsix files
 
 ### Install
 
-Once we have a `.vsix` package (after running `npm run build`), we're able to install the theme.
+Once we have a `.vsix` package, we're able to install the theme.
 
 From VS Code,
 1. `cmd+shift+p` to open command palette
-1. Type "**ext**" and select "**Extensions: Install Extensions**" to open the Extensions sidebar
+1. Type "**ext**" and select "**Extensions: Install Extensions**"
 1. Click the `...` menu in the upper right corner of the sidebar
 1. Choose "**Install from VSIX**"
 1. From Finder, select the `.vsix` file that we generated in `npm run build`. Once selected, it should appear in the extensions sidebar
 1. Done!
 
-If you need to toggle to the theme, go to `Preferences > Color Theme > Cents`. If you need to reinstall, search for "**cents**" in the Extensions sidebar.
+To toggle the theme go to `Preferences > Color Theme > Cents`. Search for "**cents**" in the Extensions sidebar to reinstall.
 
 ### Publish
-
-Visit https://marketplace.visualstudio.com/manage/publishers/piperchester or
 
 ```sh
 vsce publish
 ```
+
+or visit https://marketplace.visualstudio.com/manage/publishers/piperchester.
+
 </details>
 
 ### Recongition

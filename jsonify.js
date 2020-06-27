@@ -1,5 +1,6 @@
 // Simple script to take a JS file and export a JSON file
-// so that VSCE can package it up
+// so that VSCE can package it up.
+
 const fs = require('fs');
 const centsJson = 'cents.json';
 
