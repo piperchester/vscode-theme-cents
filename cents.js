@@ -1,5 +1,9 @@
+// These are standardized design tokens
+// and shouldn't be updated. Work on replacing the
+// the hex values below with these higher abstractions.
 const colors = {
   redLight : '#FF5C5C',
+  redLightest : '#FFE8E8',
   redDark : '#AB0303',
   blueLighter : '#9DCDFA',
 }
@@ -174,7 +178,8 @@ module.exports = {
     "terminal.ansiGreen": "#c2d94c",
     "terminal.ansiYellow": "#ffb454",
     "terminal.ansiBlue": "#39bae6",
-    "terminal.ansiMagenta": "#ca30c7",
+    // "terminal.ansiMagenta": "#ca30c7",
+    "terminal.ansiMagenta": colors.redLightest,
     "terminal.ansiCyan": "#95e6cb",
     "terminal.ansiWhite": "#c7c7c7",
     "terminal.ansiBrightBlack": "#686868",
@@ -182,7 +187,8 @@ module.exports = {
     "terminal.ansiBrightGreen": "#cbe645",
     "terminal.ansiBrightYellow": "#ffee99",
     "terminal.ansiBrightBlue": "#6871ff",
-    "terminal.ansiBrightMagenta": "#ff77ff",
+    // "terminal.ansiBrightMagenta": "#ff77ff",
+    "terminal.ansiBrightMagenta": colors.redLightest,
     "terminal.ansiBrightCyan": "#a6fde1",
     "terminal.ansiBrightWhite": "#ffffff"
   },
@@ -528,7 +534,7 @@ module.exports = {
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c",
       "settings": {
-        "foreground": "#c678ddff"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -542,7 +548,7 @@ module.exports = {
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c",
       "settings": {
-        "foreground": "#c678ddff"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -556,7 +562,8 @@ module.exports = {
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c",
       "settings": {
-        "foreground": "#C178DD"
+        // TODO: fix
+        "foreground": colors.redLightest
       }
     },
     {
@@ -640,7 +647,7 @@ module.exports = {
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
-        "foreground": "#c678ddff"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -1189,14 +1196,14 @@ module.exports = {
       "name": "laravel blade tag",
       "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
-        "foreground": "#C679DD"
+        "foreground": colors.redLightest
       }
     },
     {
       "name": "laravel blade @",
       "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
       "settings": {
-        "foreground": "#C679DD"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -1438,7 +1445,7 @@ module.exports = {
     {
       "scope": "token.debug-token",
       "settings": {
-        "foreground": "#b267e6"
+        "foreground": colors.redLightest
       }
     },
     {

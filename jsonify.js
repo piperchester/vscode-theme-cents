@@ -1,5 +1,6 @@
 // Simple script to take a JS file and export a JSON file
-// so that VSCE can package it up
+// so that VSCE can package it up.
+
 const fs = require('fs');
 const centsJson = 'cents.json';
 
@@ -9,5 +10,6 @@ if (fs.existsSync(centsJson)) {
   fs.unlinkSync(centsJson);
 }
 
+console.log('Writing cents.js to cents.json...')
 const theme = require('./cents.js');
 fs.writeFileSync(centsJson, JSON.stringify(theme));

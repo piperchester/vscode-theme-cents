@@ -2,7 +2,7 @@
   "name": "vscode-cents-theme",
   "displayName": "💰Cents",
   "description": "A dark VS Code theme that just makes sense.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "publisher": "piperchester",
   "license": "MIT",
   "repository": {
@@ -13,7 +13,6 @@
     "build": "node jsonify && vsce package",
     "clean": "rm -rf *.vsix cents.json",
     "json": "node jsonify",
-    "postversion": "npm run clean && git push origin",
     "start": "npm run clean && vsce package"
   },
   "engines": {
@@ -38,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "vsce": "^1.59.0"
+    "vsce": "^1.77.0"
   }
 }
