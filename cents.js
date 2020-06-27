@@ -1443,7 +1443,7 @@ module.exports = {
     {
       "scope": "token.debug-token",
       "settings": {
-        "foreground": "#b267e6"
+        "foreground": colors.redLightest
       }
     },
     {
