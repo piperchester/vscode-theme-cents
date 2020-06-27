@@ -1,5 +1,5 @@
 {
-  "name": "vscode-cents-theme",
+  "name": "vscode-theme-cents",
   "displayName": "💰Cents",
   "description": "A dark VS Code theme that just makes sense.",
   "version": "1.4.0",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/piperchester/vscode-cents-theme"
+    "url": "https://github.com/piperchester/vscode-theme-cents"
   },
   "scripts": {
     "build": "node jsonify && vsce package",
