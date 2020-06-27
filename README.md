@@ -1,19 +1,11 @@
 ## Cents 💰
-> It just makes sense!
-
 Dark theme that's a smart investment in productivitiy and reflects a sensible brand.
 
-Cents is **[available in the VS Code marketplace][market]**. To install,
+Download from the **[VS Code marketplace][market]**, or install from VS Code,
 
 1. Type `cmd+shift+p` to open the command palette.
 1. Type "**ext**" and select "**Extensions: Install Extensions**" to open the Extensions sidebar.
-1. Type "**cents**" in the Extensions sidebar to find the theme. (_Hint: look for th\e 💰_)
-
-### Contribute ♻️
-Help improve Cents! Open an issue or pull request by tweaking `cents.json`.
-
-<details>
-<summary>How do I build this locally?</summary>
+1. Type "**cents**" in the Extensions sidebar to find the theme (look for the 💰).
 
 ### Build
 
@@ -37,6 +29,27 @@ From VS Code,
 
 To toggle the theme go to `Preferences > Color Theme > Cents`. Search for "**cents**" in the Extensions sidebar to reinstall.
 
+### Contribute ♻️
+Want to improve Cents? It's super easy to.
+
+All you need to do is replace the hex values in `cents.js`
+with valid `colors` design tokens. For example,
+
+```javascript
+// cents.js
+const colors = {
+  blueLighter : '#9DCDFA',
+}
+
+module.exports = {
+    colors: {
+        "badge.background": "#2e363c",  // this should be using a color.
+    }
+}
+```
+
+<details><summary>How do I publish this?</summary>
+
 ### Publish
 
 ```sh
@@ -47,8 +60,11 @@ or visit https://marketplace.visualstudio.com/manage/publishers/piperchester.
 
 </details>
 
-### Recongition
-Cents was loosely based on the awesome [`Any Dark`][ad] and [`One Dark Pro`][odp] projects.
+---
+
+Cents was inspired by the awesome [`Any Dark`][ad] and [`One Dark Pro`][odp] projects.
+
+> It just makes sense!
 
 [market]: https://marketplace.visualstudio.com/items?itemName=piperchester.vscode-cents-theme
 [ad]: https://github.com/teabyii/vscode-ayu

@@ -1,3 +1,6 @@
+// These are standardized design tokens
+// and shouldn't be updated. Work on replacing the
+// the hex values below with these higher abstractions.
 const colors = {
   redLight : '#FF5C5C',
   redDark : '#AB0303',
