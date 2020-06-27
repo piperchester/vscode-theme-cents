@@ -3,6 +3,7 @@
 // the hex values below with these higher abstractions.
 const colors = {
   redLight : '#FF5C5C',
+  redLightest : '#FFE8E8',
   redDark : '#AB0303',
   blueLighter : '#9DCDFA',
 }
@@ -531,7 +532,7 @@ module.exports = {
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c",
       "settings": {
-        "foreground": "#c678ddff"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -545,7 +546,7 @@ module.exports = {
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c",
       "settings": {
-        "foreground": "#c678ddff"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -559,6 +560,7 @@ module.exports = {
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c",
       "settings": {
+        // TODO: fix
         "foreground": "#C178DD"
       }
     },
@@ -643,7 +645,7 @@ module.exports = {
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
-        "foreground": "#c678ddff"
+        "foreground": colors.redLightest
       }
     },
     {
@@ -1192,14 +1194,14 @@ module.exports = {
       "name": "laravel blade tag",
       "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
-        "foreground": "#C679DD"
+        "foreground": colors.redLightest
       }
     },
     {
       "name": "laravel blade @",
       "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
       "settings": {
-        "foreground": "#C679DD"
+        "foreground": colors.redLightest
       }
     },
     {

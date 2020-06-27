@@ -10,5 +10,6 @@ if (fs.existsSync(centsJson)) {
   fs.unlinkSync(centsJson);
 }
 
+console.log('Writing cents.js to cents.json...')
 const theme = require('./cents.js');
 fs.writeFileSync(centsJson, JSON.stringify(theme));
