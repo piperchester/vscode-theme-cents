@@ -15,7 +15,7 @@ yarn build  # repackages .vsix file
 yarn clean  # wipes .vsix files
 ```
 
-### Install
+### Test
 
 Once we have a `.vsix` package, we're able to install the theme.
 
@@ -28,6 +28,8 @@ From VS Code,
 1. Done!
 
 To toggle the theme go to `Preferences > Color Theme > Cents`. Search for "**cents**" in the Extensions sidebar to reinstall.
+
+Note: if you're using the [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) extension, that will take precedence over the theme. Don't be alarmed if you don't see your changes being propagated as expected.
 
 ### Contribute ♻️
 Want to improve Cents? It's super easy to.

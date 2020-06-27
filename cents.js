@@ -178,7 +178,8 @@ module.exports = {
     "terminal.ansiGreen": "#c2d94c",
     "terminal.ansiYellow": "#ffb454",
     "terminal.ansiBlue": "#39bae6",
-    "terminal.ansiMagenta": "#ca30c7",
+    // "terminal.ansiMagenta": "#ca30c7",
+    "terminal.ansiMagenta": colors.redLightest,
     "terminal.ansiCyan": "#95e6cb",
     "terminal.ansiWhite": "#c7c7c7",
     "terminal.ansiBrightBlack": "#686868",
@@ -186,7 +187,8 @@ module.exports = {
     "terminal.ansiBrightGreen": "#cbe645",
     "terminal.ansiBrightYellow": "#ffee99",
     "terminal.ansiBrightBlue": "#6871ff",
-    "terminal.ansiBrightMagenta": "#ff77ff",
+    // "terminal.ansiBrightMagenta": "#ff77ff",
+    "terminal.ansiBrightMagenta": colors.redLightest,
     "terminal.ansiBrightCyan": "#a6fde1",
     "terminal.ansiBrightWhite": "#ffffff"
   },
@@ -561,7 +563,7 @@ module.exports = {
       "scope": "keyword.operator.sizeof.c",
       "settings": {
         // TODO: fix
-        "foreground": "#C178DD"
+        "foreground": colors.redLightest
       }
     },
     {
